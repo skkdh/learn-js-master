@@ -1,4 +1,4 @@
-import {countdown} from './countdown';
+import {countdown} from 'learn-js-master/js-countDown';
 
 describe("tests for countdown function", () => {
     it("should count from biggest number to smallest", () => {
