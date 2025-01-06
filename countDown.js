@@ -1,6 +1,8 @@
-function countdown(target) {
+export function countdown(target) {
+  const result = [];
   for (let i = target; i >= 0; i--) {
-    console.log(i);
+    result.push(i);
   }
+  return result;
 }
-countdown(10);
+
